@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eeae54b-60da-4543-a180-6f636b88899d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/everydayrails-rspec-2017.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/everydayrails-rspec-2017.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.last_run.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/note_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/note_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/factories/projects.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/projects.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/models/project_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/project_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/projects.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/projects.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -29,9 +22,9 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_generates_associated_data_from_a_factory__everydayrails_rspec_2017.rcov" NAME="Note generates associated data from a factory: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535077389287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535078724901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535079713071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Development__everydayrails_rspec_2017.rcov" NAME="Development: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535027741898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@All_specs_in_everydayrails_rspec_2017__everydayrails_rspec_2017.rcov" NAME="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535078214979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@All_specs_in_everydayrails_rspec_2017__everydayrails_rspec_2017.rcov" NAME="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535079424944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="450" />
@@ -105,7 +98,7 @@
         <counts>
           <entry key="Gemfile" value="124" />
           <entry key="gitignore" value="17" />
-          <entry key="rb" value="3001" />
+          <entry key="rb" value="3236" />
           <entry key="rspec" value="29" />
           <entry key="yml" value="1" />
         </counts>
@@ -113,7 +106,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Ruby" value="3125" />
+          <entry key="Ruby" value="3360" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -150,20 +143,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/factories/projects.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="345">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="427">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -243,8 +236,8 @@
         <option value="$PROJECT_DIR$/spec/factories/users.rb" />
         <option value="$PROJECT_DIR$/spec/factories/notes.rb" />
         <option value="$PROJECT_DIR$/spec/models/note_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/models/project_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/projects.rb" />
+        <option value="$PROJECT_DIR$/spec/models/project_spec.rb" />
       </list>
     </option>
   </component>
@@ -538,24 +531,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 32m 36s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_everydayrails-rspec-2017__everydayrails-rspec-2017 - 2018.08.24 at 11h 35m 37s.xml">
-      <configuration name="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="All_specs_in_everydayrails-rspec-2017__everydayrails-rspec-2017 - 2018.08.24 at 11h 36m 56s.xml">
-      <configuration name="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 37m 13s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
-    </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 40m 48s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
-    </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 41m 16s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
-    </history-entry>
     <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 41m 26s.xml">
       <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
     </history-entry>
@@ -568,9 +543,27 @@
     <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 43m 32s.xml">
       <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
     </history-entry>
+    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 45m 32s.xml">
+      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    </history-entry>
+    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 50m 55s.xml">
+      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    </history-entry>
+    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 55m 52s.xml">
+      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_everydayrails-rspec-2017__everydayrails-rspec-2017 - 2018.08.24 at 11h 56m 33s.xml">
+      <configuration name="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_everydayrails-rspec-2017__everydayrails-rspec-2017 - 2018.08.24 at 11h 57m 06s.xml">
+      <configuration name="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 12h 02m 04s.xml">
+      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22033000" />
+    <option name="totallyTimeSpent" value="23076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -883,17 +876,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/projects.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="345">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/projects.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="427">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
