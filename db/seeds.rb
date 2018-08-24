@@ -15,7 +15,7 @@ require "faker"
     first_name: Faker::Name.first_name,
     last_name: Faker::Name.last_name,
     email: Faker::Internet.email,
-    password: Faker::Internet.password,
+    password: 'foobar',
     last_sign_in_ip: Faker::Internet.ip_v4_address,
   )
 end
