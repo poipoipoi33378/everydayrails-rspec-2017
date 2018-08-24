@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eeae54b-60da-4543-a180-6f636b88899d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/everydayrails-rspec-2017.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/everydayrails-rspec-2017.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.last_run.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/projects.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/projects.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/project_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/project_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -21,10 +22,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_update__everydayrails_rspec_2017.rcov" NAME="ProjectsController#update: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535097698420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_generates_associated_data_from_a_factory__everydayrails_rspec_2017.rcov" NAME="Note generates associated data from a factory: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535077389287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535079713071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535096151462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Development__everydayrails_rspec_2017.rcov" NAME="Development: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535027741898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@All_specs_in_everydayrails_rspec_2017__everydayrails_rspec_2017.rcov" NAME="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535079424944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@All_specs_in_everydayrails_rspec_2017__everydayrails_rspec_2017.rcov" NAME="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535094070334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="450" />
@@ -64,7 +66,8 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -77,7 +80,8 @@
           <entry key="Gemfile" value="1" />
           <entry key="generators" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="rb" value="41" />
+          <entry key="md" value="1" />
+          <entry key="rb" value="59" />
           <entry key="rspec" value="2" />
           <entry key="sql" value="3" />
           <entry key="sqlite_master" value="1" />
@@ -88,8 +92,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Database Element" value="2" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Ruby" value="42" />
+          <entry key="Ruby" value="60" />
           <entry key="Scratch" value="3" />
           <entry key="YAML" value="2" />
         </counts>
@@ -98,7 +103,7 @@
         <counts>
           <entry key="Gemfile" value="124" />
           <entry key="gitignore" value="17" />
-          <entry key="rb" value="3236" />
+          <entry key="rb" value="6649" />
           <entry key="rspec" value="29" />
           <entry key="yml" value="1" />
         </counts>
@@ -106,7 +111,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Ruby" value="3360" />
+          <entry key="Ruby" value="6773" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -115,93 +120,100 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="487">
+              <caret line="192" column="41" selection-start-line="192" selection-start-column="41" selection-end-line="192" selection-end-column="41" />
+              <folding>
+                <element signature="e#100#343#0" />
+                <element signature="e#2228#2245#0" />
+                <element signature="e#2658#2712#0" />
+                <element signature="e#3858#3903#0" />
+                <element signature="e#4222#4667#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.1.6/lib/rails/application.rb">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/devise-4.5.0/lib/devise/controllers/sign_in_out.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/devise-4.5.0/lib/devise/test/controller_helpers.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/devise-4.5.0/lib/devise/mapping.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.1.6/lib/active_record/attribute_methods.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="398" selection-start-line="398" selection-end-line="398" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.1.6/lib/active_record/attribute_set.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activemodel-5.1.6/lib/active_model/attribute_methods.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="468" selection-start-line="468" selection-end-line="468" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.1.6/lib/active_record/attribute_methods/primary_key.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="169">
-              <caret line="353" selection-start-line="353" selection-end-line="353" />
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/collection/map/mri_map_backend.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/factories/projects.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/factory_bot-4.10.0/lib/factory_bot/strategy_syntax_method_registrar.rb">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/collection/map/non_concurrent_map_backend.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/factory_bot-4.10.0/lib/factory_bot/factory_runner.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="1497" selection-start-line="1497" selection-end-line="1497" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/factories/users.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -228,7 +240,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/test/fixtures/projects.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
@@ -238,6 +249,10 @@
         <option value="$PROJECT_DIR$/spec/models/note_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/projects.rb" />
         <option value="$PROJECT_DIR$/spec/models/project_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
       </list>
     </option>
   </component>
@@ -310,6 +325,12 @@
               <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
               <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -321,7 +342,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="email&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="sign_in&#9;FILE&#9;file:///Users/seiichi/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/devise-4.5.0/lib/devise/controllers/sign_in_out.rb&#10;email&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -342,7 +363,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rake.spec: everydayrails-rspec-2017">
+  <component name="RunManager" selected="RSpec.ProjectsController#update: everydayrails-rspec-2017">
     <configuration name="Note generates associated data from a factory: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
@@ -367,6 +388,40 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Note generates associated data from a factory" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="true" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ProjectsController#update: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="everydayrails-rspec-2017" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/projects_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ProjectsController#update" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -508,9 +563,11 @@
       <item itemvalue="Rake.test: everydayrails-rspec-2017" />
       <item itemvalue="Rake.spec: everydayrails-rspec-2017" />
       <item itemvalue="RSpec.Note generates associated data from a factory: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.ProjectsController#update: everydayrails-rspec-2017" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="RSpec.ProjectsController#update: everydayrails-rspec-2017" />
         <item itemvalue="RSpec.Note generates associated data from a factory: everydayrails-rspec-2017" />
       </list>
     </recent_temporary>
@@ -527,43 +584,44 @@
       <option name="presentableId" value="Default" />
       <updated>1535007384549</updated>
       <workItem from="1535007385913" duration="15757000" />
+      <workItem from="1535091262463" duration="6093000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 41m 26s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 37m 48s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 41m 35s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 38m 43s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 41m 43s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 42m 24s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 43m 32s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 44m 33s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 45m 32s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 45m 30s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 50m 55s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 45m 49s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 11h 55m 52s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 49m 48s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_everydayrails-rspec-2017__everydayrails-rspec-2017 - 2018.08.24 at 11h 56m 33s.xml">
-      <configuration name="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 54m 02s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="All_specs_in_everydayrails-rspec-2017__everydayrails-rspec-2017 - 2018.08.24 at 11h 57m 06s.xml">
-      <configuration name="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 55m 47s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.24 at 12h 02m 04s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="ProjectsController#update__everydayrails-rspec-2017 - 2018.08.24 at 16h 58m 28s.xml">
+      <configuration name="ProjectsController#update: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23076000" />
+    <option name="totallyTimeSpent" value="30705000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,14 +637,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21871203" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22114216" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49878493" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49939248" weight="0.32995495" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32995495" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50243014" side_tool="true" weight="0.37387386" />
-      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32995495" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" weight="0.32995495" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49756986" visible="true" weight="0.36486486" />
@@ -595,11 +653,11 @@
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32995495" />
       <window_info anchor="bottom" x="21" y="-694" width="1878" height="308" id="Terminal" order="13" sideWeight="0.49756986" weight="0.36486486" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3383961" />
       <window_info anchor="right" id="Database" order="0" weight="0.32168245" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3383961" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -635,54 +693,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/da7571f2-5c30-4079-9add-b21581390a42/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.generators">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170429184509_add_user_to_project.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170429213746_create_notes.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20170429031237_devise_create_users.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8b764def-2e4e-474a-8a17-2fa21b4a97be/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tasks_controller.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://33fbb4b1-832a-4b17-a003-65fb2eb443ec/schema/main/table/sqlite_master">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/33fbb4b1-832a-4b17-a003-65fb2eb443ec/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -827,31 +837,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="405">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/projects.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="1497" selection-start-line="1497" selection-end-line="1497" />
+        <state relative-caret-position="345">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="600">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/users.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -869,24 +880,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="22455">
+          <caret line="1497" selection-start-line="1497" selection-end-line="1497" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/factories/projects.rb">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        <state relative-caret-position="675">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/factories/users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-expectations-3.6.0/lib/rspec/expectations/syntax.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/home_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="41" selection-end-line="58" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/projects_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.1.6/lib/active_support/core_ext/object/blank.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/collection/map/non_concurrent_map_backend.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/collection/map/mri_map_backend.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activemodel-5.1.6/lib/active_model/attribute_methods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="468" selection-start-line="468" selection-end-line="468" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.1.6/lib/active_record/attribute_methods/primary_key.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.1.6/lib/active_record/attribute_methods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="398" selection-start-line="398" selection-end-line="398" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.1.6/lib/active_record/attribute_set.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/devise-4.5.0/lib/devise/mapping.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/devise-4.5.0/lib/devise/test/controller_helpers.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/devise-4.5.0/lib/devise/controllers/sign_in_out.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="192" column="41" selection-start-line="192" selection-start-column="41" selection-end-line="192" selection-end-column="41" />
+          <folding>
+            <element signature="e#100#343#0" />
+            <element signature="e#2228#2245#0" />
+            <element signature="e#2658#2712#0" />
+            <element signature="e#3858#3903#0" />
+            <element signature="e#4222#4667#0" />
+          </folding>
         </state>
       </provider>
     </entry>
