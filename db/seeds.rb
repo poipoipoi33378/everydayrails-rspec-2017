@@ -8,6 +8,15 @@
 
 require "faker"
 
+User.create!(
+    first_name: "Foo",
+    last_name: "Bar",
+    email: "testtest@email.com",
+    password: "password",
+    last_sign_in_ip: "0.0.0.0",
+    )
+
+
 # Create users with random IP addresses, for use in demonstrating tests
 # involving external HTTP services.
 20.times do
