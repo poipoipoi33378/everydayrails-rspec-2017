@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eeae54b-60da-4543-a180-6f636b88899d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/everydayrails-rspec-2017.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/everydayrails-rspec-2017.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.last_run.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/models/note_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/note_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/user_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/user_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -24,47 +25,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Run_spec__note_spec___everydayrails_rspec_2017.rcov" NAME="Run spec 'note_spec': everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329048582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Home_page__everydayrails_rspec_2017.rcov" NAME="Home page: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535252378870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_create_as_an_authenticated_user_with_invalid_attributes_does_not_add_a_project__everydayrails_rspec_2017.rcov" NAME="ProjectsController#create as an authenticated user with invalid attributes does not add a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535103089552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_when_no_match_is_found_returns_an_empty_collection__everydayrails_rspec_2017.rcov" NAME="Note when no match is found returns an empty collection: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329262934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@User__everydayrails_rspec_2017.rcov" NAME="User: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535337589152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_generates_associated_data_from_a_factory__everydayrails_rspec_2017.rcov" NAME="Note generates associated data from a factory: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535077389287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_API__everydayrails_rspec_2017.rcov" NAME="Projects API: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535153386145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_check_validation__everydayrails_rspec_2017.rcov" NAME="Note check validation: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535328574435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@GeocodeUserJob_calls_geocode_on_the_user__everydayrails_rspec_2017.rcov" NAME="GeocodeUserJob calls geocode on the user: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535355480850" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController_show_responds_with_JSON_formatted_output__everydayrails_rspec_2017.rcov" NAME="TasksController#show responds with JSON formatted output: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535110753312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535350674912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController_show_requires_authentication__everydayrails_rspec_2017.rcov" NAME="TasksController#show requires authentication: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535111173654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Tasks_user_tpggles_a_task__everydayrails_rspec_2017.rcov" NAME="Tasks user tpggles a task: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535335875332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Rails_console__everydayrails_rspec_2017.rcov" NAME="Rails console: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535354412511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsApis__everydayrails_rspec_2017.rcov" NAME="ProjectsApis: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535153025537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_API_creates_a_project__everydayrails_rspec_2017.rcov" NAME="Projects API creates a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535252094700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_works_with_all_kinds_of_HTML_elements__everydayrails_rspec_2017.rcov" NAME="Projects works with all kinds of HTML elements: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535113513267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Notes__everydayrails_rspec_2017.rcov" NAME="Notes: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535350949800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@All_specs_in_everydayrails_rspec_2017__everydayrails_rspec_2017.rcov" NAME="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535094070334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_create_as_an_authenticated_user_with_valid_attributes__everydayrails_rspec_2017.rcov" NAME="ProjectsController#create as an authenticated user with valid attributes: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535102748516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@SignUps_user_successfully_signs_up__everydayrails_rspec_2017.rcov" NAME="SignUps user successfully signs up: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535359802885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController__everydayrails_rspec_2017.rcov" NAME="TasksController: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535332324523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_delegates_name_to_the_user_who_created_it__everydayrails_rspec_2017.rcov" NAME="Note delegates name to the user who created it: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535339134471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Notes_Normal_version_user_uploads_an_attachment__everydayrails_rspec_2017.rcov" NAME="Notes Normal version user uploads an attachment: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535351088957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_with_valid_attributes_with_valid_attributes_as_an_authenticated_user__everydayrails_rspec_2017.rcov" NAME="Projects with valid attributes with valid attributes as an authenticated user: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535252981987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@NotesController_index_searches_notes_by_the_provided_keyword__everydayrails_rspec_2017.rcov" NAME="NotesController#index searches notes by the provided keyword: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535347986723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_update__everydayrails_rspec_2017.rcov" NAME="ProjectsController#update: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535102729003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Notes_Normal_version_user_uploads_an_attachment__everydayrails_rspec_2017.rcov" NAME="Notes Normal version user uploads an attachment: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535353596434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_API_loads_a_project__everydayrails_rspec_2017.rcov" NAME="Projects API loads a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535251664042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_guest_adds_a_project__everydayrails_rspec_2017.rcov" NAME="Projects guest adds a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535327848504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Task__everydayrails_rspec_2017.rcov" NAME="Task: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535328313812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_as_an_authenticated_user__everydayrails_rspec_2017.rcov" NAME="Projects as an authenticated user: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535254187028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Notes_Shoulda_version__everydayrails_rspec_2017.rcov" NAME="Notes Shoulda version: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535351212212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_index_as_an_authenticated_user_responds_successfully__everydayrails_rspec_2017.rcov" NAME="ProjectsController#index as an authenticated user responds successfully: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535334353080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note__everydayrails_rspec_2017.rcov" NAME="Note: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329382804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@User_sends_a_welcome_email_on_account_creation__everydayrails_rspec_2017.rcov" NAME="User sends a welcome email on account creation: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535360207192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsApis_type__request_GET__projects_apis_works___now_write_some_real_specs___everydayrails_rspec_2017.rcov" NAME="ProjectsApis type::request GET /projects_apis works! (now write some real specs): everydayrails-rspec-2017 Coverage Results" MODIFIED="1535151764100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Notes_user_uploads_an_attachment__everydayrails_rspec_2017.rcov" NAME="Notes user uploads an attachment: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535350517753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_as_an_authenticated_user_with_valid_attributes_adds_a_project__everydayrails_rspec_2017.rcov" NAME="Projects as an authenticated user with valid attributes adds a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535254102938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_Shoulda_version__everydayrails_rspec_2017.rcov" NAME="Note Shoulda version: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535351280857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@SignIns_user_signs_in__everydayrails_rspec_2017.rcov" NAME="SignIns user signs in: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535355178929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@UserMailer_welcome_email__everydayrails_rspec_2017.rcov" NAME="UserMailer welcome_email: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535356373516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_Shoulda_version__everydayrails_rspec_2017.rcov" NAME="Note Shoulda version: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535353576225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects__everydayrails_rspec_2017.rcov" NAME="Projects: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535327048213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_user_creates_a_new_project__everydayrails_rspec_2017.rcov" NAME="Projects user creates a new project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535334605852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Development__everydayrails_rspec_2017.rcov" NAME="Development: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535027741898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController_show_adds_a_new_task_to_the_project__everydayrails_rspec_2017.rcov" NAME="TasksController#show adds a new task to the project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329686264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Tasks__everydayrails_rspec_2017.rcov" NAME="Tasks: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535334929065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Run_spec__projects_apis_spec___everydayrails_rspec_2017.rcov" NAME="Run spec 'projects_apis_spec': everydayrails-rspec-2017 Coverage Results" MODIFIED="1535152818037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Run_spec__user_mailer_spec___everydayrails_rspec_2017.rcov" NAME="Run spec 'user_mailer_spec': everydayrails-rspec-2017 Coverage Results" MODIFIED="1535356033901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Run_spec__note_spec___everydayrails_rspec_2017.rcov" NAME="Run spec 'note_spec': everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329048582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Home_page__everydayrails_rspec_2017.rcov" NAME="Home page: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535252378870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_create_as_an_authenticated_user_with_invalid_attributes_does_not_add_a_project__everydayrails_rspec_2017.rcov" NAME="ProjectsController#create as an authenticated user with invalid attributes does not add a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535103089552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_when_no_match_is_found_returns_an_empty_collection__everydayrails_rspec_2017.rcov" NAME="Note when no match is found returns an empty collection: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329262934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@User__everydayrails_rspec_2017.rcov" NAME="User: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535337589152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_API__everydayrails_rspec_2017.rcov" NAME="Projects API: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535153386145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_check_validation__everydayrails_rspec_2017.rcov" NAME="Note check validation: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535328574435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535350674912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController_show_requires_authentication__everydayrails_rspec_2017.rcov" NAME="TasksController#show requires authentication: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535111173654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Tasks_user_tpggles_a_task__everydayrails_rspec_2017.rcov" NAME="Tasks user tpggles a task: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535335875332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@UserMailer_welcome_email_sends_a_welcome_email_to_the_user_s_email_address__everydayrails_rspec_2017.rcov" NAME="UserMailer welcome_email sends a welcome email to the user's email address: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535356095276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@UserMailer_welcome_email_sends_from_the_support_email_address__everydayrails_rspec_2017.rcov" NAME="UserMailer welcome_email sends from the support email address: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535356131322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_create_as_an_authenticated_user_with_valid_attributes__everydayrails_rspec_2017.rcov" NAME="ProjectsController#create as an authenticated user with valid attributes: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535102748516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_delegates_name_to_the_user_who_created_it__everydayrails_rspec_2017.rcov" NAME="Note delegates name to the user who created it: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535339134471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_with_valid_attributes_with_valid_attributes_as_an_authenticated_user__everydayrails_rspec_2017.rcov" NAME="Projects with valid attributes with valid attributes as an authenticated user: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535252981987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@NotesController_index_searches_notes_by_the_provided_keyword__everydayrails_rspec_2017.rcov" NAME="NotesController#index searches notes by the provided keyword: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535347986723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_update__everydayrails_rspec_2017.rcov" NAME="ProjectsController#update: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535102729003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_guest_adds_a_project__everydayrails_rspec_2017.rcov" NAME="Projects guest adds a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535327848504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note__everydayrails_rspec_2017.rcov" NAME="Note: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329382804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Notes_user_uploads_an_attachment__everydayrails_rspec_2017.rcov" NAME="Notes user uploads an attachment: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535350517753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_as_an_authenticated_user_with_valid_attributes_adds_a_project__everydayrails_rspec_2017.rcov" NAME="Projects as an authenticated user with valid attributes adds a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535254102938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@UserMailer_welcome_email_greets_the_user_by_first_name__everydayrails_rspec_2017.rcov" NAME="UserMailer welcome_email greets the user by first name: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535356510609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_user_creates_a_new_project__everydayrails_rspec_2017.rcov" NAME="Projects user creates a new project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535334605852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController_show_adds_a_new_task_to_the_project__everydayrails_rspec_2017.rcov" NAME="TasksController#show adds a new task to the project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329686264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@User_performs_geocoding__everydayrails_rspec_2017.rcov" NAME="User performs geocoding: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535361228485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="450" />
@@ -88,13 +100,18 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="development" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="schema" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="development" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="schema" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="development" type="feb32156:DbDataSourceImpl" />
+        <item name="collation" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -106,8 +123,9 @@
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -117,35 +135,36 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="3" />
+          <entry key="Gemfile" value="4" />
           <entry key="generators" value="1" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="1" />
           <entry key="md" value="1" />
-          <entry key="rb" value="108" />
+          <entry key="rb" value="118" />
           <entry key="rspec" value="2" />
           <entry key="sql" value="3" />
           <entry key="sqlite_master" value="1" />
-          <entry key="users" value="1" />
+          <entry key="users" value="3" />
           <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Database Element" value="2" />
+          <entry key="Database Element" value="4" />
           <entry key="HTML" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Ruby" value="110" />
+          <entry key="Ruby" value="121" />
           <entry key="Scratch" value="4" />
           <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Gemfile" value="164" />
+          <entry key="Gemfile" value="188" />
+          <entry key="Ruby Console" value="84" />
           <entry key="gitignore" value="17" />
-          <entry key="rb" value="13346" />
+          <entry key="rb" value="15482" />
           <entry key="rspec" value="29" />
           <entry key="yml" value="1" />
         </counts>
@@ -153,7 +172,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Ruby" value="13510" />
+          <entry key="Ruby" value="15754" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -163,11 +182,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            <state relative-caret-position="360">
+              <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/support/vcr.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -175,32 +203,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/user.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="240">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/controllers/notes_controller_spec.rb">
+        <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="15">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+        <entry file="file://$PROJECT_DIR$/spec/features/sign_ins_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+            <state relative-caret-position="90">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/spec/jobs/geocode_user_job_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/mailers/user_mailer_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
@@ -209,19 +246,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/paperclip-6.1.0/lib/paperclip/matchers.rb">
+        <entry file="file://$PROJECT_DIR$/spec/features/sign_ups_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/notes_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <entry file="das://89ab97e6-97c7-4a38-a1b8-056c5b9cb73e/schema/main/table/users">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -229,26 +266,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
+            <state relative-caret-position="322">
               <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="58" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/notes_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -275,6 +294,7 @@
       <find>config.a</find>
       <find>require</find>
       <find>dele</find>
+      <find>geocode</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -323,8 +343,6 @@
         <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/projects_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/tasks_spec.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/notes_controller_spec.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
@@ -332,6 +350,14 @@
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/features/notes_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/note_spec.rb" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
+        <option value="$PROJECT_DIR$/spec/features/sign_ins_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/jobs/geocode_user_job_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/mailers/user_mailer_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/sign_ups_spec.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/support/vcr.rb" />
       </list>
     </option>
   </component>
@@ -361,6 +387,8 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -382,19 +410,127 @@
               <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="environments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
+              <item name="attachments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
+              <item name="attachments" type="462c0819:PsiDirectoryNode" />
+              <item name="000" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
+              <item name="attachments" type="462c0819:PsiDirectoryNode" />
+              <item name="000" type="462c0819:PsiDirectoryNode" />
+              <item name="000" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
+              <item name="attachments" type="462c0819:PsiDirectoryNode" />
+              <item name="000" type="462c0819:PsiDirectoryNode" />
+              <item name="000" type="462c0819:PsiDirectoryNode" />
+              <item name="001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="notes" type="462c0819:PsiDirectoryNode" />
+              <item name="attachments" type="462c0819:PsiDirectoryNode" />
+              <item name="000" type="462c0819:PsiDirectoryNode" />
+              <item name="000" type="462c0819:PsiDirectoryNode" />
+              <item name="001" type="462c0819:PsiDirectoryNode" />
+              <item name="original" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="jobs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="mailers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
@@ -431,8 +567,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Note Shoulda version: everydayrails-rspec-2017">
-    <configuration name="Note Shoulda version: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.User performs geocoding: everydayrails-rspec-2017">
+    <configuration name="SignUps user successfully signs up: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -452,10 +588,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/note_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/sign_ups_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Note Shoulda version" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="SignUps user successfully signs up" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -466,7 +602,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Notes Normal version user uploads an attachment: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="User performs geocoding: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -486,10 +622,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/notes_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/user_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Notes Normal version user uploads an attachment" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="User performs geocoding" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -500,7 +636,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Notes Shoulda version: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="User sends a welcome email on account creation: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -520,10 +656,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/notes_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/models/user_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Notes Shoulda version" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="User sends a welcome email on account creation" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -534,7 +670,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Notes user uploads an attachment: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="UserMailer welcome_email greets the user by first name: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -554,10 +690,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/notes_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/mailers/user_mailer_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Notes user uploads an attachment" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="UserMailer welcome_email greets the user by first name" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -568,7 +704,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Notes: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="UserMailer welcome_email: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -588,10 +724,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/notes_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/mailers/user_mailer_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Notes" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="UserMailer welcome_email" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -732,19 +868,19 @@
       <item itemvalue="Rails.Development: everydayrails-rspec-2017" />
       <item itemvalue="Rake.test: everydayrails-rspec-2017" />
       <item itemvalue="Rake.spec: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Notes user uploads an attachment: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Notes: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Notes Normal version user uploads an attachment: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Notes Shoulda version: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Note Shoulda version: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.UserMailer welcome_email: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.UserMailer welcome_email greets the user by first name: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.SignUps user successfully signs up: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.User sends a welcome email on account creation: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.User performs geocoding: everydayrails-rspec-2017" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Note Shoulda version: everydayrails-rspec-2017" />
-        <item itemvalue="RSpec.Notes Shoulda version: everydayrails-rspec-2017" />
-        <item itemvalue="RSpec.Notes Normal version user uploads an attachment: everydayrails-rspec-2017" />
-        <item itemvalue="RSpec.Notes: everydayrails-rspec-2017" />
-        <item itemvalue="RSpec.Notes user uploads an attachment: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.User performs geocoding: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.User sends a welcome email on account creation: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.SignUps user successfully signs up: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.UserMailer welcome_email greets the user by first name: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.UserMailer welcome_email: everydayrails-rspec-2017" />
       </list>
     </recent_temporary>
   </component>
@@ -763,43 +899,44 @@
       <workItem from="1535091262463" duration="14799000" />
       <workItem from="1535150543492" duration="1249000" />
       <workItem from="1535151967458" duration="20961000" />
+      <workItem from="1535352982836" duration="6182000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Notes_user_uploads_an_attachment__everydayrails-rspec-2017 - 2018.08.27 at 15h 12m 45s.xml">
-      <configuration name="Notes user uploads an attachment: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="UserMailer_welcome_email_greets_the_user_by_first_name__everydayrails-rspec-2017 - 2018.08.27 at 16h 56m 20s.xml">
+      <configuration name="UserMailer welcome_email greets the user by first name: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Notes_user_uploads_an_attachment__everydayrails-rspec-2017 - 2018.08.27 at 15h 15m 04s.xml">
-      <configuration name="Notes user uploads an attachment: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="SignUps_user_successfully_signs_up__everydayrails-rspec-2017 - 2018.08.27 at 17h 44m 27s.xml">
+      <configuration name="SignUps user successfully signs up: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Notes_user_uploads_an_attachment__everydayrails-rspec-2017 - 2018.08.27 at 15h 15m 20s.xml">
-      <configuration name="Notes user uploads an attachment: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="SignUps_user_successfully_signs_up__everydayrails-rspec-2017 - 2018.08.27 at 17h 46m 39s.xml">
+      <configuration name="SignUps user successfully signs up: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.27 at 15h 17m 50s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="SignUps_user_successfully_signs_up__everydayrails-rspec-2017 - 2018.08.27 at 17h 47m 38s.xml">
+      <configuration name="SignUps user successfully signs up: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.08.27 at 15h 18m 09s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    <history-entry file="SignUps_user_successfully_signs_up__everydayrails-rspec-2017 - 2018.08.27 at 17h 50m 06s.xml">
+      <configuration name="SignUps user successfully signs up: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Notes__everydayrails-rspec-2017 - 2018.08.27 at 15h 22m 33s.xml">
-      <configuration name="Notes: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="User_sends_a_welcome_email_on_account_creation__everydayrails-rspec-2017 - 2018.08.27 at 17h 56m 06s.xml">
+      <configuration name="User sends a welcome email on account creation: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Notes_Normal_version_user_uploads_an_attachment__everydayrails-rspec-2017 - 2018.08.27 at 15h 24m 51s.xml">
-      <configuration name="Notes Normal version user uploads an attachment: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="User_sends_a_welcome_email_on_account_creation__everydayrails-rspec-2017 - 2018.08.27 at 17h 56m 49s.xml">
+      <configuration name="User sends a welcome email on account creation: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Notes_Shoulda_version__everydayrails-rspec-2017 - 2018.08.27 at 15h 25m 08s.xml">
-      <configuration name="Notes Shoulda version: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="User_performs_geocoding__everydayrails-rspec-2017 - 2018.08.27 at 18h 02m 50s.xml">
+      <configuration name="User performs geocoding: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Notes_Shoulda_version__everydayrails-rspec-2017 - 2018.08.27 at 15h 26m 53s.xml">
-      <configuration name="Notes Shoulda version: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="User_performs_geocoding__everydayrails-rspec-2017 - 2018.08.27 at 18h 04m 23s.xml">
+      <configuration name="User performs geocoding: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Note_Shoulda_version__everydayrails-rspec-2017 - 2018.08.27 at 15h 28m 02s.xml">
-      <configuration name="Note Shoulda version: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="User_performs_geocoding__everydayrails-rspec-2017 - 2018.08.27 at 18h 11m 38s.xml">
+      <configuration name="User performs geocoding: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62452000" />
+    <option name="totallyTimeSpent" value="68634000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -812,25 +949,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="87" y="-1027" width="1688" height="1004" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22843257" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23086269" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="データベース・コンソール" />
       <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49878493" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49513972" weight="0.32995495" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32995495" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5127582" side_tool="true" weight="0.36486486" />
-      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32995495" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" weight="0.32995495" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4872418" weight="0.2984234" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.4872418" visible="true" weight="0.2984234" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4981774" weight="0.39977476" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32995495" />
-      <window_info active="true" anchor="bottom" x="21" y="-694" width="1878" height="308" id="Terminal" order="13" sideWeight="0.48541918" visible="true" weight="0.36486486" />
-      <window_info anchor="right" id="Database" order="0" weight="0.32168245" />
+      <window_info anchor="bottom" x="21" y="-694" width="1878" height="308" id="Terminal" order="13" sideWeight="0.48541918" weight="0.36486486" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32138517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -838,23 +977,24 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22843257" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.23086269" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49878493" weight="0.32995495" />
-      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49513972" weight="0.32995495" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32995495" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5127582" side_tool="true" visible="true" weight="0.36486486" />
-      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32995495" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.4872418" visible="true" weight="0.36486486" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4981774" weight="0.39977476" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" weight="0.32995495" />
-      <window_info anchor="bottom" x="21" y="-694" width="1878" height="308" id="Terminal" order="13" sideWeight="0.48541918" weight="0.36486486" />
-      <window_info anchor="right" id="Database" order="0" weight="0.32168245" />
+      <window_info anchor="bottom" id="データベース・コンソール" order="0" />
+      <window_info anchor="bottom" id="Database Console" order="1" sideWeight="0.49878493" weight="0.32995495" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="3" sideWeight="0.49513972" weight="0.32995495" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32995495" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5127582" side_tool="true" weight="0.36486486" />
+      <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" weight="0.32995495" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.4872418" weight="0.2984234" />
+      <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.4981774" weight="0.39977476" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" weight="0.32995495" />
+      <window_info active="true" anchor="bottom" x="21" y="-694" width="1878" height="308" id="Terminal" order="14" sideWeight="0.48541918" visible="true" weight="0.36486486" />
+      <window_info anchor="right" id="Database" order="0" visible="true" weight="0.32138517" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -893,66 +1033,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/app/models/user.rb</url>
+          <line>20</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-expectations-3.6.0/lib/rspec/expectations/syntax.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="72" selection-start-line="72" selection-end-line="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/rspec-core-3.6.0/lib/rspec/core/example.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="253" selection-start-line="253" selection-end-line="253" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/projects_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/controllers/projects_controller_test.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.1.6/lib/active_support/core_ext/object/blank.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/collection/map/non_concurrent_map_backend.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.0.5/lib/concurrent/collection/map/mri_map_backend.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activemodel-5.1.6/lib/active_model/attribute_methods.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="468" selection-start-line="468" selection-end-line="468" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.1.6/lib/active_record/attribute_methods/primary_key.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -1029,13 +1121,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/projects_apis_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/projects_apis_spec.rb" />
     <entry file="file://$PROJECT_DIR$/spec/requests/projects_api_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -1106,13 +1192,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/mathcers/contents_type.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/mathcers/contents_type.rb" />
     <entry file="file://$PROJECT_DIR$/spec/controllers/tasks_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1148,20 +1228,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/note.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -1169,24 +1235,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/notes_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="58" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1197,17 +1249,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/paperclip-6.1.0/lib/paperclip/matchers.rb">
+    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        <state relative-caret-position="960">
+          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -1218,24 +1263,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/paperclip-6.1.0/lib/paperclip/matchers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="64" column="50" selection-start-line="64" selection-start-column="50" selection-end-line="64" selection-end-column="50" />
+        <state relative-caret-position="375">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/notes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/notes_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="390">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="58" column="46" selection-start-line="57" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://89ab97e6-97c7-4a38-a1b8-056c5b9cb73e/schema/main/table/users">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/sign_ins_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/jobs/geocode_user_job_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/mailers/user_mailer_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/sign_ups_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/vcr.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>

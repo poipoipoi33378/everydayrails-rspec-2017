@@ -1,43 +1,43 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/seiichi/lesson/everydayrailsrspec/everydayrails-rspec-2017/app/models/note.rb": [
+      "/Users/seiichi/lesson/everydayrailsrspec/everydayrails-rspec-2017/app/mailers/user_mailer.rb": [
         1,
-        1,
-        1,
-        null,
-        1,
-        null,
         1,
         null,
         1,
         0,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        0,
         null,
         null
       ],
-      "/Users/seiichi/lesson/everydayrailsrspec/everydayrails-rspec-2017/app/mailers/user_mailer.rb": [
+      "/Users/seiichi/lesson/everydayrailsrspec/everydayrails-rspec-2017/app/mailers/application_mailer.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/seiichi/lesson/everydayrailsrspec/everydayrails-rspec-2017/app/models/note.rb": [
         0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        0,
+        null,
         0,
         null,
         0,
         0,
         0,
         0,
-        0
-      ],
-      "/Users/seiichi/lesson/everydayrailsrspec/everydayrails-rspec-2017/app/mailers/application_mailer.rb": [
+        0,
+        0,
         0,
         0,
         0,
@@ -506,6 +506,6 @@
         0
       ]
     },
-    "timestamp": 1535351282
+    "timestamp": 1535361368
   }
 }
