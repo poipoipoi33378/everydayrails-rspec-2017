@@ -6,6 +6,11 @@
       <change beforePath="$PROJECT_DIR$/coverage/.last_run.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.last_run.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/.resultset.json" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/.resultset.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/controllers/tasks_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/tasks_controller_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/projects_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/projects_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/features/tasks_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/tasks_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/note_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/note_spec.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -21,30 +26,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_create_as_an_authenticated_user_with_valid_attributes__everydayrails_rspec_2017.rcov" NAME="ProjectsController#create as an authenticated user with valid attributes: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535102748516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Run_spec__note_spec___everydayrails_rspec_2017.rcov" NAME="Run spec 'note_spec': everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329048582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Home_page__everydayrails_rspec_2017.rcov" NAME="Home page: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535252378870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_create_as_an_authenticated_user_with_invalid_attributes_does_not_add_a_project__everydayrails_rspec_2017.rcov" NAME="ProjectsController#create as an authenticated user with invalid attributes does not add a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535103089552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_with_valid_attributes_with_valid_attributes_as_an_authenticated_user__everydayrails_rspec_2017.rcov" NAME="Projects with valid attributes with valid attributes as an authenticated user: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535252981987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_update__everydayrails_rspec_2017.rcov" NAME="ProjectsController#update: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535102729003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_API_loads_a_project__everydayrails_rspec_2017.rcov" NAME="Projects API loads a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535251664042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_when_no_match_is_found_returns_an_empty_collection__everydayrails_rspec_2017.rcov" NAME="Note when no match is found returns an empty collection: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329262934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_generates_associated_data_from_a_factory__everydayrails_rspec_2017.rcov" NAME="Note generates associated data from a factory: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535077389287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_API__everydayrails_rspec_2017.rcov" NAME="Projects API: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535153386145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_guest_adds_a_project__everydayrails_rspec_2017.rcov" NAME="Projects guest adds a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535114272089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note_check_validation__everydayrails_rspec_2017.rcov" NAME="Note check validation: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535328574435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController_show_responds_with_JSON_formatted_output__everydayrails_rspec_2017.rcov" NAME="TasksController#show responds with JSON formatted output: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535110753312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535151375653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535327105565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController_show_requires_authentication__everydayrails_rspec_2017.rcov" NAME="TasksController#show requires authentication: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535111173654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Tasks_user_tpggles_a_task__everydayrails_rspec_2017.rcov" NAME="Tasks user tpggles a task: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535116577550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_as_an_authenticated_user__everydayrails_rspec_2017.rcov" NAME="Projects as an authenticated user: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535254187028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Tasks_user_tpggles_a_task__everydayrails_rspec_2017.rcov" NAME="Tasks user tpggles a task: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535335875332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsApis__everydayrails_rspec_2017.rcov" NAME="ProjectsApis: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535153025537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_API_creates_a_project__everydayrails_rspec_2017.rcov" NAME="Projects API creates a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535252094700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_works_with_all_kinds_of_HTML_elements__everydayrails_rspec_2017.rcov" NAME="Projects works with all kinds of HTML elements: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535113513267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@All_specs_in_everydayrails_rspec_2017__everydayrails_rspec_2017.rcov" NAME="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535094070334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_create_as_an_authenticated_user_with_valid_attributes__everydayrails_rspec_2017.rcov" NAME="ProjectsController#create as an authenticated user with valid attributes: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535102748516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController__everydayrails_rspec_2017.rcov" NAME="TasksController: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535332324523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_with_valid_attributes_with_valid_attributes_as_an_authenticated_user__everydayrails_rspec_2017.rcov" NAME="Projects with valid attributes with valid attributes as an authenticated user: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535252981987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_update__everydayrails_rspec_2017.rcov" NAME="ProjectsController#update: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535102729003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_API_loads_a_project__everydayrails_rspec_2017.rcov" NAME="Projects API loads a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535251664042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_guest_adds_a_project__everydayrails_rspec_2017.rcov" NAME="Projects guest adds a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535327848504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Task__everydayrails_rspec_2017.rcov" NAME="Task: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535328313812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_as_an_authenticated_user__everydayrails_rspec_2017.rcov" NAME="Projects as an authenticated user: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535254187028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsController_index_as_an_authenticated_user_responds_successfully__everydayrails_rspec_2017.rcov" NAME="ProjectsController#index as an authenticated user responds successfully: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535334353080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note__everydayrails_rspec_2017.rcov" NAME="Note: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329382804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@ProjectsApis_type__request_GET__projects_apis_works___now_write_some_real_specs___everydayrails_rspec_2017.rcov" NAME="ProjectsApis type::request GET /projects_apis works! (now write some real specs): everydayrails-rspec-2017 Coverage Results" MODIFIED="1535151764100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_as_an_authenticated_user_with_valid_attributes_adds_a_project__everydayrails_rspec_2017.rcov" NAME="Projects as an authenticated user with valid attributes adds a project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535254102938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_user_creates_a_new_project__everydayrails_rspec_2017.rcov" NAME="Projects user creates a new project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535112574980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects__everydayrails_rspec_2017.rcov" NAME="Projects: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535327048213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Projects_user_creates_a_new_project__everydayrails_rspec_2017.rcov" NAME="Projects user creates a new project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535334605852" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Development__everydayrails_rspec_2017.rcov" NAME="Development: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535027741898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController_show_adds_a_new_task_to_the_project__everydayrails_rspec_2017.rcov" NAME="TasksController#show adds a new task to the project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535110988655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@TasksController_show_adds_a_new_task_to_the_project__everydayrails_rspec_2017.rcov" NAME="TasksController#show adds a new task to the project: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535329686264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Tasks__everydayrails_rspec_2017.rcov" NAME="Tasks: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535334929065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Run_spec__projects_apis_spec___everydayrails_rspec_2017.rcov" NAME="Run spec 'projects_apis_spec': everydayrails-rspec-2017 Coverage Results" MODIFIED="1535152818037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@All_specs_in_everydayrails_rspec_2017__everydayrails_rspec_2017.rcov" NAME="All specs in everydayrails-rspec-2017: everydayrails-rspec-2017 Coverage Results" MODIFIED="1535094070334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="450" />
@@ -102,7 +116,7 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
           <entry key="md" value="1" />
-          <entry key="rb" value="82" />
+          <entry key="rb" value="97" />
           <entry key="rspec" value="2" />
           <entry key="sql" value="3" />
           <entry key="sqlite_master" value="1" />
@@ -116,7 +130,7 @@
           <entry key="HTML" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Ruby" value="83" />
+          <entry key="Ruby" value="98" />
           <entry key="Scratch" value="4" />
           <entry key="YAML" value="2" />
         </counts>
@@ -125,7 +139,7 @@
         <counts>
           <entry key="Gemfile" value="133" />
           <entry key="gitignore" value="17" />
-          <entry key="rb" value="10645" />
+          <entry key="rb" value="11827" />
           <entry key="rspec" value="29" />
           <entry key="yml" value="1" />
         </counts>
@@ -133,7 +147,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Ruby" value="10778" />
+          <entry key="Ruby" value="11960" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
@@ -142,79 +156,98 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/factories/projects.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/spec/requests/projects_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/support/request_spec_helper.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" selection-start-line="21" selection-end-line="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/requests/home_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="445">
-                  <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/home_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/features/projects_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="412">
+              <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/task_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/tasks_controller_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/support/mathcers/content_type.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/support/contexts/project_setup.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -224,9 +257,23 @@
       <find>javascript_driver</find>
       <find>se</find>
       <find>RSpec.co</find>
+      <find>@user</find>
+      <find>@note1</find>
+      <find>@note3</find>
+      <find>@project</find>
+      <find>@task</find>
+      <find>content_types</find>
+      <find>inde</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>note1</replace>
+      <replace>note2</replace>
+      <replace>note3</replace>
+      <replace>user</replace>
+      <replace>project</replace>
+      <replace>task</replace>
+      <replace>content_type</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -249,23 +296,28 @@
         <option value="$PROJECT_DIR$/spec/models/user_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/users.rb" />
         <option value="$PROJECT_DIR$/spec/factories/notes.rb" />
-        <option value="$PROJECT_DIR$/spec/models/note_spec.rb" />
         <option value="$PROJECT_DIR$/spec/models/project_spec.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-        <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/projects.rb" />
-        <option value="$PROJECT_DIR$/spec/controllers/tasks_controller_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/features/projects_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/features/tasks_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/support/capybara.rb" />
         <option value="$PROJECT_DIR$/spec/requests/projects_apis_spec.rb" />
         <option value="$PROJECT_DIR$/spec/requests/projects_api_spec.rb" />
         <option value="$PROJECT_DIR$/spec/requests/home_spec.rb" />
         <option value="$PROJECT_DIR$/spec/support/request_spec_helper.rb" />
-        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/spec/requests/projects_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/support/login_support.rb" />
+        <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/models/task_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/note_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/support/contexts/project_setup.rb" />
+        <option value="$PROJECT_DIR$/spec/support/mathcers/contents_type.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/tasks_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/support/mathcers/content_type.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/projects_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/tasks_spec.rb" />
       </list>
     </option>
   </component>
@@ -321,13 +373,26 @@
               <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
-              <item name="requests" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
               <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
               <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="mathcers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="everydayrails-rspec-2017" type="b2602c69:ProjectViewProjectNode" />
@@ -369,8 +434,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Projects as an authenticated user: everydayrails-rspec-2017">
-    <configuration name="Home page: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.Tasks user tpggles a task: everydayrails-rspec-2017">
+    <configuration name="Projects user creates a new project: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -390,10 +455,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/home_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/projects_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Home page" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Projects user creates a new project" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -404,7 +469,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Projects API creates a project: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="ProjectsController#index as an authenticated user responds successfully: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -424,10 +489,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/projects_api_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/projects_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Projects API creates a project" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ProjectsController#index as an authenticated user responds successfully" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -438,7 +503,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Projects as an authenticated user with valid attributes adds a project: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Tasks user tpggles a task: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -458,10 +523,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/projects_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/tasks_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Projects as an authenticated user with valid attributes adds a project" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Tasks user tpggles a task" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -472,7 +537,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Projects as an authenticated user: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="TasksController: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -492,10 +557,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/projects_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/tasks_controller_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Projects as an authenticated user" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="TasksController" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -506,7 +571,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Projects with valid attributes with valid attributes as an authenticated user: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Tasks: everydayrails-rspec-2017" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="everydayrails-rspec-2017" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="" />
@@ -526,10 +591,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/requests/projects_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/tasks_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Projects with valid attributes with valid attributes as an authenticated user" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Tasks" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -670,19 +735,19 @@
       <item itemvalue="Rails.Development: everydayrails-rspec-2017" />
       <item itemvalue="Rake.test: everydayrails-rspec-2017" />
       <item itemvalue="Rake.spec: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Projects API creates a project: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Home page: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Projects with valid attributes with valid attributes as an authenticated user: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Projects as an authenticated user with valid attributes adds a project: everydayrails-rspec-2017" />
-      <item itemvalue="RSpec.Projects as an authenticated user: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.TasksController: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.ProjectsController#index as an authenticated user responds successfully: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.Projects user creates a new project: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.Tasks: everydayrails-rspec-2017" />
+      <item itemvalue="RSpec.Tasks user tpggles a task: everydayrails-rspec-2017" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="RSpec.Projects as an authenticated user: everydayrails-rspec-2017" />
-        <item itemvalue="RSpec.Projects as an authenticated user with valid attributes adds a project: everydayrails-rspec-2017" />
-        <item itemvalue="RSpec.Projects with valid attributes with valid attributes as an authenticated user: everydayrails-rspec-2017" />
-        <item itemvalue="RSpec.Home page: everydayrails-rspec-2017" />
-        <item itemvalue="RSpec.Projects API creates a project: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.Tasks user tpggles a task: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.Tasks: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.Projects user creates a new project: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.ProjectsController#index as an authenticated user responds successfully: everydayrails-rspec-2017" />
+        <item itemvalue="RSpec.TasksController: everydayrails-rspec-2017" />
       </list>
     </recent_temporary>
   </component>
@@ -700,44 +765,44 @@
       <workItem from="1535007385913" duration="15757000" />
       <workItem from="1535091262463" duration="14799000" />
       <workItem from="1535150543492" duration="1249000" />
-      <workItem from="1535151967458" duration="4783000" />
+      <workItem from="1535151967458" duration="13359000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Projects_API_loads_a_project__everydayrails-rspec-2017 - 2018.08.26 at 11h 46m 49s.xml">
-      <configuration name="Projects API loads a project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ProjectsController#index_as_an_authenticated_user_responds_successfully__everydayrails-rspec-2017 - 2018.08.27 at 10h 43m 37s.xml">
+      <configuration name="ProjectsController#index as an authenticated user responds successfully: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Projects_API_loads_a_project__everydayrails-rspec-2017 - 2018.08.26 at 11h 47m 46s.xml">
-      <configuration name="Projects API loads a project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ProjectsController#index_as_an_authenticated_user_responds_successfully__everydayrails-rspec-2017 - 2018.08.27 at 10h 44m 43s.xml">
+      <configuration name="ProjectsController#index as an authenticated user responds successfully: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Projects_API_creates_a_project__everydayrails-rspec-2017 - 2018.08.26 at 11h 53m 53s.xml">
-      <configuration name="Projects API creates a project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="ProjectsController#index_as_an_authenticated_user_responds_successfully__everydayrails-rspec-2017 - 2018.08.27 at 10h 45m 55s.xml">
+      <configuration name="ProjectsController#index as an authenticated user responds successfully: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Projects_API_creates_a_project__everydayrails-rspec-2017 - 2018.08.26 at 11h 54m 17s.xml">
-      <configuration name="Projects API creates a project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Projects_user_creates_a_new_project__everydayrails-rspec-2017 - 2018.08.27 at 10h 48m 26s.xml">
+      <configuration name="Projects user creates a new project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Projects_API_creates_a_project__everydayrails-rspec-2017 - 2018.08.26 at 11h 54m 56s.xml">
-      <configuration name="Projects API creates a project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Projects_user_creates_a_new_project__everydayrails-rspec-2017 - 2018.08.27 at 10h 48m 59s.xml">
+      <configuration name="Projects user creates a new project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Home_page__everydayrails-rspec-2017 - 2018.08.26 at 11h 59m 40s.xml">
-      <configuration name="Home page: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Projects_user_creates_a_new_project__everydayrails-rspec-2017 - 2018.08.27 at 10h 50m 09s.xml">
+      <configuration name="Projects user creates a new project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Projects_with_valid_attributes_with_valid_attributes_as_an_authenticated_user__everydayrails-rspec-2017 - 2018.08.26 at 12h 09m 31s.xml">
-      <configuration name="Projects with valid attributes with valid attributes as an authenticated user: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tasks__everydayrails-rspec-2017 - 2018.08.27 at 10h 55m 34s.xml">
+      <configuration name="Tasks: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Projects_with_valid_attributes_with_valid_attributes_as_an_authenticated_user__everydayrails-rspec-2017 - 2018.08.26 at 12h 09m 43s.xml">
-      <configuration name="Projects with valid attributes with valid attributes as an authenticated user: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tasks_user_tpggles_a_task__everydayrails-rspec-2017 - 2018.08.27 at 10h 57m 31s.xml">
+      <configuration name="Tasks user tpggles a task: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Projects_as_an_authenticated_user_with_valid_attributes_adds_a_project__everydayrails-rspec-2017 - 2018.08.26 at 12h 11m 58s.xml">
-      <configuration name="Projects as an authenticated user with valid attributes adds a project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tasks_user_tpggles_a_task__everydayrails-rspec-2017 - 2018.08.27 at 10h 58m 18s.xml">
+      <configuration name="Tasks user tpggles a task: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Projects_as_an_authenticated_user_with_valid_attributes_adds_a_project__everydayrails-rspec-2017 - 2018.08.26 at 12h 28m 25s.xml">
-      <configuration name="Projects as an authenticated user with valid attributes adds a project: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Tasks_user_tpggles_a_task__everydayrails-rspec-2017 - 2018.08.27 at 11h 01m 17s.xml">
+      <configuration name="Tasks user tpggles a task: everydayrails-rspec-2017" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46274000" />
+    <option name="totallyTimeSpent" value="54850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -759,16 +824,16 @@
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49513972" weight="0.32995495" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32995495" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.51215065" side_tool="true" visible="true" weight="0.36486486" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5127582" side_tool="true" weight="0.36486486" />
       <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32995495" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.48784932" visible="true" weight="0.36486486" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.4872418" visible="true" weight="0.36486486" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4981774" weight="0.39977476" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32995495" />
-      <window_info anchor="bottom" x="21" y="-694" width="1878" height="308" id="Terminal" order="13" sideWeight="0.48602673" weight="0.36486486" />
+      <window_info anchor="bottom" x="21" y="-694" width="1878" height="308" id="Terminal" order="13" sideWeight="0.48541918" weight="0.36486486" />
       <window_info anchor="right" id="Database" order="0" weight="0.32168245" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -777,22 +842,22 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22114216" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.22843257" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" sideWeight="0.49878493" weight="0.32995495" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.4963548" weight="0.32995495" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49513972" weight="0.32995495" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32995495" />
-      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5072904" side_tool="true" visible="true" weight="0.36486486" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" weight="0.32995495" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5127582" side_tool="true" visible="true" weight="0.36486486" />
+      <window_info anchor="bottom" id="Database Changes" order="5" weight="0.32995495" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4927096" weight="0.36486486" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49878493" weight="0.39977476" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.4872418" visible="true" weight="0.36486486" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4981774" weight="0.39977476" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32995495" />
-      <window_info active="true" anchor="bottom" x="21" y="-694" width="1878" height="308" id="Terminal" order="13" sideWeight="0.4927096" visible="true" weight="0.36486486" />
+      <window_info anchor="bottom" x="21" y="-694" width="1878" height="308" id="Terminal" order="13" sideWeight="0.48541918" weight="0.36486486" />
       <window_info anchor="right" id="Database" order="0" weight="0.32168245" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
@@ -833,41 +898,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/factory_bot-4.10.0/lib/factory_bot/syntax/default.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activesupport-5.1.6/lib/active_support/dependencies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="286" selection-start-line="286" selection-end-line="286" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/factory_bot_rails-4.10.0/lib/factory_bot_rails/railtie.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -900,13 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="353" selection-start-line="353" selection-end-line="353" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -1050,20 +1073,6 @@
     <entry file="file://$PROJECT_DIR$/tmp/capybara/capybara-201808242130124039874993.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/tasks_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1109,13 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/projects_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/projects_api_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -1123,24 +1125,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/home_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/factories/projects.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="14" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1158,6 +1146,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/requests/projects_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/support/request_spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1165,17 +1160,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+    <entry file="file://$PROJECT_DIR$/spec/support/login_support.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/requests/projects_spec.rb">
+    <entry file="file://$PROJECT_DIR$/spec/models/task_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/contexts/project_setup.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/home_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/mathcers/contents_type.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/tasks_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/support/mathcers/content_type.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/projects_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/projects_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
         </state>
       </provider>
     </entry>
