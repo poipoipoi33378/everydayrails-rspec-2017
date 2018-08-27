@@ -8,6 +8,7 @@ require 'rspec/rails'
 # Add additional requires below this line. Rails is not loaded until this point!
 
 require 'capybara/rspec'
+require 'paperclip/matchers'
 require 'simplecov'
 SimpleCov.start 'rails'
 
@@ -63,6 +64,11 @@ RSpec.configure do |config|
   config.include Devise::Test::ControllerHelpers, type: :controller
   config.include RequestSpecHelper, type: :request
   config.include Devise::Test::IntegrationHelpers,type: :feature
+  config.include Paperclip::Shoulda::Matchers
+
+  config.after(:suite) do
+    FileUtils.rm_rf(Dir["#{Rails.root}/spec/test_uploads/"])
+  end
 end
 
 Shoulda::Matchers.configure do |config|

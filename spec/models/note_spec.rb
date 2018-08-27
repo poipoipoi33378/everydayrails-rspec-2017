@@ -2,6 +2,12 @@ require 'rails_helper'
 
 RSpec.describe Note, type: :model do
 
+  context "file attached test for Shoulda version" do
+    let(:user) { FactoryBot.create(:user) }
+    let(:project) { FactoryBot.create(:project, owner: user) }
+    it { is_expected.to have_attached_file(:attachment) }
+  end
+
   describe "factory test" do
     it "generates associated data from a factory" do
       note = FactoryBot.create(:note)
